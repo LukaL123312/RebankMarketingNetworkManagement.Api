@@ -4,14 +4,13 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using RebankMarketingNetworkManagement.Api.Constants;
 using RebankMarketingNetworkManagement.Api.FilterAttributes;
+using RebankMarketingNetworkManagement.Api.JsonConverters;
 using RebankMarketingNetworkManagement.Api.Swagger;
 using RebankMarketingNetworkManagement.Application;
 using RebankMarketingNetworkManagement.Infrastructure;
 using System.Security.Claims;
-using System.Text.Json.Serialization;
 using System.Text;
-using RebankMarketingNetworkManagement.Api.JsonConverters;
-using Serilog;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
